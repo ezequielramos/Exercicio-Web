@@ -17,7 +17,7 @@ $result = mysqli_query($link, $query);
 <div align="center">
   <table border=1 width="800" bgcolor="#F0F0F0">
   	<tr>
-  		<td align='center'>Registro excluido com sucesso.</td>
+  		<td align='center'><font size=6>Registro excluido com sucesso.</font></td>
   	</tr>
   	<tr>
   		<td align='center'><?php echo $query;?></td>

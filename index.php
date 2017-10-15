@@ -12,7 +12,7 @@ $result = mysqli_query($link, $query);
 <div align="center">
   <table border=1 width="800" bgcolor="#F0F0F0">
     <tr>
-      <td colspan="6" align="center">Cadastro exercicio</td>
+      <td colspan="6" align="center"><font size=6>Cadastro exercicio</font></td>
     </tr>
     <tr>
       <td colspan="6" align="right"><input type='button' value='Novo registro' onclick="window.location.href='form_incluir.php'"></td>

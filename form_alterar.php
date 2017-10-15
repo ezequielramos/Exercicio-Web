@@ -20,7 +20,7 @@ $row = mysqli_fetch_row($result)
   <form action="alterar.php" method="post">
     <table border=1 width="800" bgcolor="#F0F0F0">
       <tr>
-        <td colspan="2" align="center">Alterar registro</td>
+        <td colspan="2" align="center"><font size=6>Alterar registro</font></td>
       </tr>
       <tr>
          <td align='right'>Codigo</td>
@@ -58,7 +58,8 @@ $row = mysqli_fetch_row($result)
          </td>
       </tr>
       <tr>
-        <td colspan="2" align="right"><input type='submit' value='Salvar'></td>
+        <td><input type='button' value='Voltar' onclick="window.location.href='index.php'"></td>
+        <td align="right"><input type='submit' value='Salvar'></td>
       </tr>
     </table>
   </form>

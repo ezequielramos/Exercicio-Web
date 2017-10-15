@@ -3,7 +3,7 @@
   <form action="incluir.php" method="post">
     <table border=1 width="800" bgcolor="#F0F0F0">
       <tr>
-        <td colspan="2" align="center">Novo registro</td>
+        <td colspan="2" align="center"><font size=6>Novo registro</font></td>
       </tr>
       <tr>
          <td align='right'>Descricao</td>
@@ -18,7 +18,8 @@
          <td><input name='logico' type='checkbox'></td>
       </tr>
       <tr>
-        <td colspan="2" align="right"><input type='submit' value='Salvar'></td>
+        <td><input type='button' value='Voltar' onclick="window.location.href='index.php'"></td>
+        <td align="right"><input type='submit' value='Salvar'></td>
       </tr>
     </table>
   </form>
