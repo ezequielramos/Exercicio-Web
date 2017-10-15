@@ -8,8 +8,9 @@ $link = conectaBanco();
 $result = mysqli_query($link, $query);
 
 ?>
+<body bgcolor="lightblue">
 <div align="center">
-  <table border=1 width="800">
+  <table border=1 width="800" bgcolor="#F0F0F0">
     <tr>
       <td colspan="6" align="center">Cadastro exercicio</td>
     </tr>
@@ -52,3 +53,4 @@ $result = mysqli_query($link, $query);
 
   </table>
 </div>
+</body>

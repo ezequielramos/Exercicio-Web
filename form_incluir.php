@@ -1,6 +1,7 @@
+<body bgcolor="lightblue">
 <div align="center">
   <form action="incluir.php" method="post">
-    <table border=1 width="800">
+    <table border=1 width="800" bgcolor="#F0F0F0">
       <tr>
         <td colspan="2" align="center">Novo registro</td>
       </tr>
@@ -22,3 +23,4 @@
     </table>
   </form>
 </div>
+</body>

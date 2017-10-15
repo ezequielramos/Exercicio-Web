@@ -15,10 +15,10 @@ $result = mysqli_query($link,$query);
 $row = mysqli_fetch_row($result)
 
 ?>
-
+<body bgcolor="lightblue">
 <div align="center">
   <form action="alterar.php" method="post">
-    <table border=1 width="800">
+    <table border=1 width="800" bgcolor="#F0F0F0">
       <tr>
         <td colspan="2" align="center">Alterar registro</td>
       </tr>
@@ -63,3 +63,4 @@ $row = mysqli_fetch_row($result)
     </table>
   </form>
 </div>
+</body>
